@@ -113,9 +113,9 @@ function getBike (make, model, value) {
 ```
 ## How useful is this feature to us, really?
 
-I think we've realized that es6 is becoming increasingly popular and it's really good to get into it as soon as possible. Even if you're worried about browser compatiblity, [Bable](https://babeljs.io/) will help.
+I think we've realized that ES6 is becoming increasingly popular and it's really good to get into it as soon as possible. Even if you're worried about browser compatiblity, [Babel](https://babeljs.io/) will help.
 
-## links for your reference
+## Links for your reference
 
 * **Ben Ilegbodu** - *Author* - [Learning ES6: Enhanced Object literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/)
 
