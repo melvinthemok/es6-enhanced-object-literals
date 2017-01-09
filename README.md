@@ -14,7 +14,7 @@ There are 3 features:
 
 ## How do we use it?
 
-```
+```js
 function getBike (make, model, value) {
   return {
     // Property value shorthand syntax
@@ -76,8 +76,8 @@ ES6 makes your syntax in declaring object literals more succinct.
 
 ## Example ES5 v ES6 code
 
-1. ES5:
-```
+ES5:
+```js
 function getBike (make, model, value) {
   var bike = {}
   bike['make' + make]: true
@@ -95,8 +95,8 @@ function getBike (make, model, value) {
   }
 }
 ```
-2. ES6:
-```
+ES6:
+```js
 function getBike (make, model, value) {
   return {
     make,
@@ -113,4 +113,10 @@ function getBike (make, model, value) {
 ```
 ## How useful is this feature to us, really?
 
-Somewhat
+I think we've realized that es6 is becoming increasingly popular and it's really good to get into it as soon as possible. Even if you're worried about browser compatiblity, [Bable](https://babeljs.io/) will help.
+
+## links for your reference
+
+* **Ben Ilegbodu** - *Author* - [Learning ES6: Enhanced Object literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/)
+
+* **Cory Ryan** - *Author* - [JavaScript ES6 Class Syntax](https://coryrylan.com/blog/javascript-es6-class-syntax)
